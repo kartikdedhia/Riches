@@ -91,7 +91,7 @@ $JAVA_HOME/bin/keytool -genkey -alias tomcat -keyalg RSA
 
 6. Edit web.xml in riches/WEB-INF, add the following to <security-constrain> section
 
-7. Comments added
+7. Comments added again
 <user-data-constraint>
 <transport-guarantee>CONFIDENTIAL</transport-guarantee>
 </user-data-constraint>
